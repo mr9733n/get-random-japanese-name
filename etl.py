@@ -1,18 +1,15 @@
 import os
 import json
 
-# Create lists for names
 full_name = []
 first_name = []
 last_name = []
 
-# List of paths to folders with txt files
 folder_paths = [
     'F:\\9834758345hf7A\\get-random-jp-name\\output',
     'F:\\9834758345hf7A\\get-random-jp-name\\dist\\output',
     'F:\\9834758345hf7A\\get-random-jp-name\\flask\\output',
-    'F:\9834758345hf7A\get-random-japanese-name\flask\output'
-    # Add more folder paths here if needed
+    'F:\\9834758345hf7A\\get-random-japanese-name\\flask\\output'
 ]
 
 # Iterate over each folder path

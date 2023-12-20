@@ -4,22 +4,18 @@ This Python script generates random Japanese names by scraping data from [namege
 
 ## Requirements
 
-- Python 3.x
-- Requests library (install using `pip install requests`)
-- BeautifulSoup library (install using `pip install beautifulsoup4`)
-- Unidecode library (install using `pip install unidecode`)
-
+    - Python 3.x, Requests library, BeautifulSoup library, Unidecode library
+    ```bash
+    pip install requests beautifulsoup4 unidecode
+    ```
 ## Usage
 
-1. Clone or download this repository.
-
-2. Open a terminal or command prompt and navigate to the directory containing the script.
-
-3. Run the script with the desired options. For example:
+Run the script with the desired options. For example:
 
    ```bash
    python japanese_name_generator.py --num_names 5 --sex male --save_to_file
     ```
+## OPtions
 
 --num_names: Number of names to generate (default is 1).
 --sex: Gender of names ('male' or 'female', default is 'male').
