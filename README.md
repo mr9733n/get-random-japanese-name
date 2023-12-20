@@ -4,7 +4,7 @@
 
 ## Requirements
 
-    - Python 3.x, Requests library, BeautifulSoup library, Unidecode library
+* Python 3.x, Requests library, BeautifulSoup library, Unidecode library
 
     ```bash
     pip install requests beautifulsoup4 unidecode
@@ -12,17 +12,17 @@
 
 ## Usage
 
-    Run the script with the desired options. For example:
+* Run the script with the desired options. For example:
 
     ```bash
     python japanese_name_generator.py --num_names 5 --sex male --save_to_file
     ```
 
-## OPtions
+## Options
 
-    --num_names: Number of names to generate (default is 1).
-    --sex: Gender of names ('male' or 'female', default is 'male').
-    --save_to_file: Save generated names to a file (optional).
+--num_names: Number of names to generate (default is 1).
+--sex: Gender of names ('male' or 'female', default is 'male').
+--save_to_file: Save generated names to a file (optional).
 
     The script will generate random Japanese names based on your options and display them in the console.
 
